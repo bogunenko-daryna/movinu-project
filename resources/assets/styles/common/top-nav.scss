@@ -1,0 +1,28 @@
+.top-nav {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    @media (max-width: 400px) {
+      flex-direction: column;
+      margin-bottom: 20px;
+      height: 121px;
+      padding-top: 12px;
+    }
+  }
+  &__logo {
+    img {
+      @media (max-width: 440px) {
+        width: 100%;
+      }
+    }
+    @media (max-width: 400px) {
+      margin-bottom: 10px;
+      margin-top: 7px;
+    }
+    @media (max-width: 440px) {
+      max-width: 210px;
+    }
+  }
+}

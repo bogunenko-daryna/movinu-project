@@ -1,0 +1,107 @@
+/**
+ * ============
+ * Typography
+ * ============
+ * Define as much reusable typography here
+ * such as `.text-hero`, which can be `@extend`-ed from other scss files
+ * This way, this file become a master list of typography used throughout the site
+ */
+a {
+  text-decoration: none;
+  outline: none;
+  &:hover {
+    text-decoration: none;
+    outline: none;
+  }
+}
+h1 {
+  font-size: 56px;
+  color: #fff;
+  text-align: center;
+  @include ubuntu;
+  @media (max-width: 575px) {
+    font-size: 44px;
+  }
+}
+input,
+textarea {
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: -0.48px;
+  @include ubuntu-light;
+  @media (max-width: 575px) {
+    font-size: 36px;
+    max-width: 360px;
+    padding-top: 15px;
+  }
+  @media (max-width: 400px) {
+    max-width: 100%;
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.typed-cursor {
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h3 {
+  @media (max-width: 575px) {
+    font-size: 30px !important;
+  }
+}
+button {
+  border: none;
+  text-decoration: none;
+  &:active {
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+}
+.top-nav__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 216px;
+  height: 50px;
+  border: 1px solid #231f20;
+  border-radius: 8px;
+  color: #231f20;
+  font-size: 17px;
+  font-weight: bold !important;
+  transition: all 0.4s ease-in-out;
+  @include ubuntu-light;
+  @media (max-width: 575px) {
+    height: 45px;
+    max-width: 146px;
+    font-size: 14px;
+  }
+  &:hover {
+    background-color: #414042;
+    color: #fff;
+  }
+}
+img {
+  &:hover {
+    cursor: pointer;
+  }
+}

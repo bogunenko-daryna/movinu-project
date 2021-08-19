@@ -1,0 +1,21 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "description": "Home Page",
+      "url": "/home.html"
+    },
+    {
+      "title": "Home Page",
+      "description": "Home Page",
+      "url": "/index.html"
+    },
+    {
+      "title": "Je-partner Page",
+      "description": "Je-partner Page",
+      "url": "/je-partner.html"
+    }
+  ]
+}
+

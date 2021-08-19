@@ -1,0 +1,12 @@
+{
+  "bg-block": [
+    {
+      "h1": "Je partner",
+      "h2": "in het registreren van vastgoed",
+      "padding": "50px"
+    }
+  ],
+  "btn" : {
+    "button": "Ga direct terug"
+  }
+}

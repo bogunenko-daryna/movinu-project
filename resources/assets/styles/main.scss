@@ -1,0 +1,49 @@
+@import "common/variables";
+@import "bootstrap";
+
+/** Utilities & Helpers */
+@import "utilities/position";
+
+/** Import theme styles */
+@import "reset";
+@import "mixins";
+@import "type";
+
+/** Import everything from autoload */
+@import "autoload/lazy";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+/**
+ * ==========
+ * Components
+ * ==========
+ * Components are reusable UI elements on pages, for example:
+ * - generic components can be buttons, navs, gallery slider
+ * - page-specific components such as testimonials
+ */
+// @import "components/buttons";
+@import "common/global";
+@import "common/fonts";
+@import "common/top-nav";
+@import "components/bg-block";
+@import "components/info-block";
+@import "components/content";
+@import "common/footer";
+@import "components/partner";
+@import "components/aos.css";
+
+/**
+ * ==========
+ * Layouts
+ * ==========
+ * Layouts define the scaffold of the application
+ * such as header, footer
+ */
+//@import "pages/home";
+
